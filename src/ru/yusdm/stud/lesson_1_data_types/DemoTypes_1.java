@@ -1,4 +1,4 @@
-package ru.yusdm.stud;
+package ru.yusdm.stud.lesson_1_data_types;
 
 public class DemoTypes_1 {
 
