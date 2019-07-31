@@ -17,10 +17,11 @@ public class DemoTypes_1 {
         } else {
             System.out.println("Doesn't buy a ticket");
         }*/
-       // demoBoxUnbox_6();
+        // demoBoxUnbox_6();
 
-        demoString_7();
+        // demoString_7();
 
+        demoArrays();
     }
 
     public static void demoPrimitivesNumeric_1() {
@@ -115,5 +116,23 @@ public class DemoTypes_1 {
         System.out.println(s.contains("bcd"));
     }
 
+
+    public static void demoArrays() {
+        int[] arr = new int[3];
+        arr[0] = 0;
+        arr[1] = 1;
+        arr[2] = 2;
+
+        //arr = new int[66];
+
+        //Danger
+        //arr[55]  =  2;
+
+        String[] arrStr = new String[]{"a", "b"};
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+    }
 
 }
